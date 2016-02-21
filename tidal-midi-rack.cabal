@@ -1,0 +1,21 @@
+name:                tidal-midi-rack
+version:             0.0.2
+synopsis:            custom tidal-midi module
+-- description:
+homepage:            http://tidal.lurk.org/
+license:             GPL-3
+license-file:        LICENSE
+author:              Mike Hodnick
+maintainer:          Mike Hodnick <mike.hodnick@gmail.com>
+Stability:           Experimental
+Copyright:           (c) Mike Hodnick, 2015
+category:            Sound
+build-type:          Simple
+cabal-version:       >=1.4
+
+Description: blah blah blah
+
+library
+  Exposed-modules: Sound.Tidal.MidiRack, Sound.Tidal.MidiRack2
+
+  Build-depends: base < 5, tidal-midi, tidal, PortMidi, process, hashable, containers, hosc, time, bytestring
