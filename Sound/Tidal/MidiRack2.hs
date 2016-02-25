@@ -144,11 +144,47 @@ rack = ControllerShape { params = [
                             mCC "rlegato" 116,
                             mCC "rlfokeytrig" 117,
                             mCC "rtemposync" 118,
-                            mCC "rmono" 119
+                            mCC "rmono" 119,
 
-
-
-
+                            -- minilogue
+                            mCC "mnoise" 1,
+                            mCC "mosc1pitch" 2,
+                            mCC "mosc2pitch" 3,
+                            mCC "mosc1shape" 4,
+                            mCC "mosc2shape" 5,
+                            mCC "mosc1" 7,
+                            mCC "mosc2" 8,
+                            mCC "mxmod" 9,
+                            mCC "mpitchmod" 10,
+                            mCC "mcutoff" 11,
+                            mCC "mres" 12,
+                            mCC "mfilterenv" 13,
+                            mCC "mampatk" 16,
+                            mCC "mampdecay" 17,
+                            mCC "mampsus" 18,
+                            mCC "mamprel" 19,
+                            mCC "mfilteratk" 20,
+                            mCC "mfilterdecay" 21,
+                            mCC "mfiltersus" 22,
+                            mCC "mfilterrel" 23,
+                            mCC "mlforate" 24,
+                            mCC "mlfoamt" 26,
+                            mCC "mvoicedepth" 27,
+                            mCC "mhpcutoff" 29,
+                            mCC "mdelaytime" 30,
+                            mCC "mdelayfeedback" 31,
+                            mCC "mosc1oct" 64,
+                            mCC "mosc2oct" 65,
+                            mCC "mosc1wave" 66,
+                            mCC "mosc2wave" 67,
+                            mCC "msync" 80,
+                            mCC "mring" 81,
+                            mCC "mcutoffvel" 82,
+                            mCC "mkeytrack" 83,
+                            mCC "mcutofftype" 84,
+                            mCC "mlfotarget" 90,
+                            mCC "mlfoamount" 91,
+                            mCC "mlfowave" 92
                           ],
                          duration = ("dur", 0.05),
                          velocity = ("vel", 1),
@@ -284,6 +320,47 @@ rlegato = makeF oscKeys "rlegato"
 rlfokeytrig = makeF oscKeys "rlfokeytrig"
 rtemposync = makeF oscKeys "rtemposync"
 rmono = makeF oscKeys "rmono"
+
+
+-- minilogue
+mnoise = makeF oscKeys "mnoise"
+mosc1pitch = makeF oscKeys "mosc1pitch"
+mosc2pitch = makeF oscKeys "mosc2pitch"
+mosc1shape = makeF oscKeys "mosc1shape"
+mosc2shape = makeF oscKeys "mosc2shape"
+mosc1 = makeF oscKeys "mosc1"
+mosc2 = makeF oscKeys "mosc2"
+mxmod = makeF oscKeys "mxmod"
+mpitchmod = makeF oscKeys "mpitchmod"
+mcutoff = makeF oscKeys "mcutoff"
+mres = makeF oscKeys "mres"
+mfilterenv = makeF oscKeys "mfilterenv"
+mampatk = makeF oscKeys "mampatk"
+mampdecay = makeF oscKeys "mampdecay"
+mampsus = makeF oscKeys "mampsus"
+mamprel = makeF oscKeys "mamprel"
+mfilteratk = makeF oscKeys "mfilteratk"
+mfilterdecay = makeF oscKeys "mfilterdecay"
+mfiltersus = makeF oscKeys "mfiltersus"
+mfilterrel = makeF oscKeys "mfilterrel"
+mlforate = makeF oscKeys "mlforate"
+mlfoamt = makeF oscKeys "mlfoamt"
+mvoicedepth = makeF oscKeys "mvoicedepth"
+mhpcutoff = makeF oscKeys "mhpcutoff"
+mdelaytime = makeF oscKeys "mdelaytime"
+mdelayfeedback = makeF oscKeys "mdelayfeedback"
+mosc1oct = makeF oscKeys "mosc1oct"
+mosc2oct = makeF oscKeys "mosc2oct"
+mosc1wave = makeF oscKeys "mosc1wave"
+mosc2wave = makeF oscKeys "mosc2wave"
+msync = makeF oscKeys "msync"
+mring = makeF oscKeys "mring"
+mcutoffvel = makeF oscKeys "mcutoffvel"
+mkeytrack = makeF oscKeys "mkeytrack"
+mcutofftype = makeF oscKeys "mcutofftype"
+mlfotarget = makeF oscKeys "mlfotarget"
+mlfoamount = makeF oscKeys "mlfoamount"
+mlfowave = makeF oscKeys "mlfowave"
 
 
 -- rytm
