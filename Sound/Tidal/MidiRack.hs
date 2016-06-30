@@ -1,3 +1,4 @@
+{-|
 module Sound.Tidal.MidiRack where
 
 import Sound.Tidal.Stream (makeI, makeF)
@@ -323,3 +324,5 @@ npitch2 = makeF oscKeys "npitch2"
 ndecay = makeF oscKeys "ndecay"
 
 vel          = makeF oscKeys "vel"
+
+-}

@@ -1,4 +1,5 @@
- module Sound.Tidal.MidiRack2 where
+{-|
+module Sound.Tidal.MidiRack2 where
 
 import Sound.Tidal.Stream (makeI, makeF)
 
@@ -380,3 +381,5 @@ perf5        = makeF oscKeys "perf5"
 perf6        = makeF oscKeys "perf6"
 perf7        = makeF oscKeys "perf7"
 perf8        = makeF oscKeys "perf8"
+
+-}

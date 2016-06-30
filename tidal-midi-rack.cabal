@@ -1,5 +1,5 @@
 name:                tidal-midi-rack
-version:             0.0.2
+version:             0.0.3
 synopsis:            custom tidal-midi module
 -- description:
 homepage:            http://tidal.lurk.org/
@@ -16,6 +16,6 @@ cabal-version:       >=1.4
 Description: blah blah blah
 
 library
-  Exposed-modules: Sound.Tidal.MidiRack, Sound.Tidal.MidiRack2
+  Exposed-modules: Sound.Tidal.MidiRack3, Sound.Tidal.Rytm
 
   Build-depends: base < 5, tidal-midi, tidal, PortMidi, process, hashable, containers, hosc, time, bytestring
