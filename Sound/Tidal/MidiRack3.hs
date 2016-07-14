@@ -1,4 +1,4 @@
-module Sound.Tidal.MidiRack3 where
+{-| module Sound.Tidal.MidiRack3 where
 
 import Sound.Tidal.Params
 import Sound.Tidal.MIDI.Control
@@ -31,3 +31,4 @@ rackController = ControllerShape { controls = [
                        }
 
 rack = toShape rackController
+-}

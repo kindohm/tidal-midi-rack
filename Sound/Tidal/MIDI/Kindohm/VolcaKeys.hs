@@ -1,4 +1,4 @@
-module Sound.Tidal.VolcaKeys where
+module Sound.Tidal.MIDI.Kindohm.VolcaKeys where
 
 import Sound.Tidal.Stream (makeI, makeF)
 
@@ -25,7 +25,7 @@ keys = ControllerShape { params = [
                           ],
                          duration = ("dur", 0.05),
                          velocity = ("vel", 0.5),
-                         latency = 0.1
+                         latency = 0.2
                        }
 
 oscKeys = toOscShape keys

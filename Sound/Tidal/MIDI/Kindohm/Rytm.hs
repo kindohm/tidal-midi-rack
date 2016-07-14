@@ -1,4 +1,4 @@
-module Sound.Tidal.Rytm where
+module Sound.Tidal.MIDI.Kindohm.Rytm where
 
 import Sound.Tidal.Params
 import Sound.Tidal.MIDI.Control
@@ -46,7 +46,7 @@ rytmController = ControllerShape { controls = [
                             mCC pan_p 10,
                             mCC reverb_p 83
                           ],
-                         latency = 0.01
+                         latency = 0.2
                        }
 
 rytm = toShape rytmController
