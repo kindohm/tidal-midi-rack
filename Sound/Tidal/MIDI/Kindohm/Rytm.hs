@@ -2,25 +2,7 @@ module Sound.Tidal.MIDI.Kindohm.Rytm where
 
 import Sound.Tidal.Params
 import Sound.Tidal.MIDI.Control
-
-(tun, tun_p) = pF "tun" (Just 0.5)
-(perf1, perf1_p) = pF "perf1" (Just 0)
-(perf2, perf2_p) = pF "perf2" (Just 0)
-(perf3, perf3_p) = pF "perf3" (Just 0)
-(perf4, perf4_p) = pF "perf4" (Just 0)
-(perf5, perf5_p) = pF "perf5" (Just 0)
-(perf6, perf6_p) = pF "perf6" (Just 0)
-(perf7, perf7_p) = pF "perf7" (Just 0)
-(perf8, perf8_p) = pF "perf8" (Just 0)
-(synth1, synth1_p) = pF "synth1" (Just 0)
-(synth2, synth2_p) = pF "synth2" (Just 0)
-(synth3, synth3_p) = pF "synth3" (Just 0)
-(synth4, synth4_p) = pF "synth4" (Just 0)
-(synth5, synth5_p) = pF "synth5" (Just 0)
-(synth6, synth6_p) = pF "synth6" (Just 0)
-(synth7, synth7_p) = pF "synth7" (Just 0)
-(synth8, synth8_p) = pF "synth8" (Just 0)
-(reverb, reverb_p) = pF "reverb" (Just 0)
+import Sound.Tidal.MIDI.Kindohm.CustomParams
 
 rytmController :: ControllerShape
 rytmController = ControllerShape { controls = [
