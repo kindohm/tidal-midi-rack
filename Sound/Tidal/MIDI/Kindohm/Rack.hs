@@ -20,11 +20,15 @@ rackController = ControllerShape { controls = [
                             mCC perf1_p 35,
                             mCC perf2_p 36,
                             mCC perf3_p 37,
-                            mCC perf4_p 38,
-                            mCC perf5_p 39,
-                            mCC perf6_p 40,
-                            mCC perf7_p 41,
-                            mCC perf8_p 42,
+                            mCC perf4_p 39,
+                            mCC perf5_p 40,
+                            mCC perf6_p 41,
+                            mCC perf7_p 42,
+                            mCC perf8_p 43,
+                            mCC perf9_p 44,
+                            mCC perf10_p 45,
+                            mCC perf11_p 46,
+                            mCC perf12_p 47,
 
                             --minilogue
                             mCC noise_p 1,
@@ -61,11 +65,28 @@ rackController = ControllerShape { controls = [
                             mCC ring_p 81,
                             mCC lfotarget_p 90,
                             mCC lfomod_p 91,
-                            mCC lfomod_p 91,
                             mCC lfowave_p 92,
-                            mCC portamento_p 61
+                            mCC portamento_p 61,
+
+                            -- volca
+                            mCC kportamento_p 5,
+                            mCC voice_p 40,
+                            mCC octave_p 41,
+                            mCC detune_p 42,
+                            mCC vcoegint_p 43,
+                            mCC vcfegint_p 45,
+                            mCC kcutoff_p 44,
+                            mCC klforate_p 46,
+                            mCC klfopitchint_p 47,
+                            mCC klfocutoffint_p 48,
+                            mCC kattack_p 49,
+                            mCC kdecay_p 50,
+                            mCC ksustain_p 51,
+                            mCC kdelaytime_p 52,
+                            mCC kdelayfeedback_p 53
+
                           ],
-                         latency = 0.2
+                         latency = 0.1
                        }
 
 rack = toShape rackController

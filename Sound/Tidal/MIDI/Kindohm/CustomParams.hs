@@ -2,6 +2,19 @@ module Sound.Tidal.MIDI.Kindohm.CustomParams where
 
 import Sound.Tidal.Params
 
+-- volca keys
+(kportamento, kportamento_p) = pF "kportamento" (Just 0)
+(kcutoff, kcutoff_p) = pF "kcutoff" (Just 0)
+(klfopitchint, klfopitchint_p) = pF "klfopitchint" (Just 0)
+(klforate, klforate_p) = pF "klforate" (Just 0)
+(klfocutoffint, klfocutoffint_p) = pF "klfocutoffint" (Just 0)
+(kattack, kattack_p) = pF "kattack" (Just 0)
+(kdecay, kdecay_p) = pF "kdecay" (Just 0)
+(ksustain, ksustain_p) = pF "ksustain" (Just 0)
+(kdelaytime, kdelaytime_p) = pF "kdelaytime" (Just 0)
+(kdelayfeedback, kdelayfeedback_p) = pF "kdelayfeedback" (Just 0)
+
+-- minilogue
 (noise, noise_p) = pF "noise" (Just 0)
 (shape1, shape1_p) = pF "shape1" (Just 0)
 (shape2, shape2_p) = pF "shape2" (Just 0)
@@ -36,6 +49,10 @@ import Sound.Tidal.Params
 (perf6, perf6_p) = pF "perf6" (Just 0)
 (perf7, perf7_p) = pF "perf7" (Just 0)
 (perf8, perf8_p) = pF "perf8" (Just 0)
+(perf9, perf9_p) = pF "perf9" (Just 0)
+(perf10, perf10_p) = pF "perf10" (Just 0)
+(perf11, perf11_p) = pF "perf11" (Just 0)
+(perf12, perf12_p) = pF "perf12" (Just 0)
 (synth1, synth1_p) = pF "synth1" (Just 0)
 (synth2, synth2_p) = pF "synth2" (Just 0)
 (synth3, synth3_p) = pF "synth3" (Just 0)
