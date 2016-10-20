@@ -83,7 +83,17 @@ rackController = ControllerShape { controls = [
                             mCC kdecay_p 50,
                             mCC ksustain_p 51,
                             mCC kdelaytime_p 52,
-                            mCC kdelayfeedback_p 53
+                            mCC kdelayfeedback_p 53,
+
+                            -- FL harmor
+                            mCC x_p 100,
+                            mCC y_p 101,
+                            mCC z_p 102,
+                            mCC ab_p 103,
+                            mCC gain_p 105,
+
+                            -- FL effects
+                            mCC reverb_p 104
 
                           ],
                          latency = 0.1
