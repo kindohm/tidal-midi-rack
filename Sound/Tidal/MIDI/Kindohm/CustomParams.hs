@@ -68,3 +68,7 @@ import Sound.Tidal.Params
 (y, y_p) = pF "y" (Just 0.5)
 (z, z_p) = pF "z" (Just 0.5)
 (ab, ab_p) = pF "ab" (Just 0.5)
+
+-- 0-coast
+(porttime, porttime_p) = pF "porttime" (Just 0)
+(port, port_p) = pF "port" (Just 0)

@@ -93,7 +93,11 @@ rackController = ControllerShape { controls = [
                             mCC gain_p 105,
 
                             -- FL effects
-                            mCC reverb_p 104
+                            mCC reverb_p 104,
+
+                            -- 0-coast
+                            mCC port_p 65,
+                            mCC porttime_p 5
 
                           ],
                          latency = 0.1
