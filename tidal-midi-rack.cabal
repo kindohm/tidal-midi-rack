@@ -18,4 +18,4 @@ Description: Custom Tidal MIDI synths for Mike
 library
   Exposed-modules: Sound.Tidal.MIDI.Kindohm.CustomParams, Sound.Tidal.MIDI.Kindohm.Rytm, Sound.Tidal.MIDI.Kindohm.Minilogue, Sound.Tidal.MIDI.Kindohm.Erebus, Sound.Tidal.MIDI.Kindohm.Rack
 
-  Build-depends: base < 5, tidal-midi, tidal, PortMidi, process, hashable, containers, hosc, time, bytestring
+  Build-depends: base < 5, tidal-midi == 0.8.*, tidal, PortMidi, process, hashable, containers, hosc, time, bytestring
