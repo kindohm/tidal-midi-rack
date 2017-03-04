@@ -1,5 +1,5 @@
 name:                tidal-midi-rack
-version:             0.0.4
+version:             0.0.5
 synopsis:            custom tidal-midi module
 -- description:
 homepage:            http://tidal.lurk.org/
@@ -8,7 +8,7 @@ license-file:        LICENSE
 author:              Mike Hodnick
 maintainer:          Mike Hodnick <mike.hodnick@gmail.com>
 Stability:           Experimental
-Copyright:           (c) Mike Hodnick, 2016
+Copyright:           (c) Mike Hodnick, 2017
 category:            Sound
 build-type:          Simple
 cabal-version:       >=1.4
@@ -18,4 +18,4 @@ Description: Custom Tidal MIDI synths for Mike
 library
   Exposed-modules: Sound.Tidal.MIDI.Kindohm.CustomParams, Sound.Tidal.MIDI.Kindohm.Rytm, Sound.Tidal.MIDI.Kindohm.Minilogue, Sound.Tidal.MIDI.Kindohm.Erebus, Sound.Tidal.MIDI.Kindohm.Rack
 
-  Build-depends: base < 5, tidal-midi == 0.8.*, tidal, PortMidi, process, hashable, containers, hosc, time, bytestring
+  Build-depends: base < 5, tidal-midi == 0.9.*, tidal, PortMidi, process, hashable, containers, hosc, time, bytestring
