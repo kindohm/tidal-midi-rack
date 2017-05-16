@@ -62,6 +62,7 @@ import Sound.Tidal.Params
 (synth7, synth7_p) = pF "synth7" (Just 0)
 (synth8, synth8_p) = pF "synth8" (Just 0)
 (reverb, reverb_p) = pF "reverb" (Just 0)
+(scene1, scene1_p) = pF "scene1" (Just 0)
 
 -- for Harmor
 (x, x_p) = pF "x" (Just 0.5)

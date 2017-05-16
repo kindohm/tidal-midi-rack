@@ -29,6 +29,7 @@ rackController = ControllerShape { controls = [
                             mCC perf10_p 45,
                             mCC perf11_p 46,
                             mCC perf12_p 47,
+                            mCC scene1_p 92,
 
                             --minilogue
                             mCC noise_p 1,
@@ -90,17 +91,17 @@ rackController = ControllerShape { controls = [
                             mCC y_p 101,
                             mCC z_p 102,
                             mCC ab_p 103,
-                            mCC gain_p 105,
+                            mCC gain_p 104,
 
                             -- FL effects
-                            mCC reverb_p 104,
+                            mCC reverb_p 105,
 
                             -- 0-coast
                             mCC port_p 65,
                             mCC porttime_p 5
 
                           ],
-                         latency = 0.23
+                         latency = 0.52
                          -- 0.23 for SD
                          -- 0.1 for classic dirt
                        }
