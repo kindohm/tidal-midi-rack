@@ -101,7 +101,7 @@ rackController = ControllerShape { controls = [
                             mCC porttime_p 5
 
                           ],
-                         latency = 0.52
+                         latency = 0.5
                          -- 0.23 for SD
                          -- 0.1 for classic dirt
                        }

@@ -53,7 +53,7 @@ import Sound.Tidal.Params
 (perf10, perf10_p) = pF "perf10" (Just 0)
 (perf11, perf11_p) = pF "perf11" (Just 0)
 (perf12, perf12_p) = pF "perf12" (Just 0)
-(synth1, synth1_p) = pF "synth1" (Just 0)
+(synth1, synth1_p) = pF "synth1" (Just 1)
 (synth2, synth2_p) = pF "synth2" (Just 0)
 (synth3, synth3_p) = pF "synth3" (Just 0)
 (synth4, synth4_p) = pF "synth4" (Just 0)
