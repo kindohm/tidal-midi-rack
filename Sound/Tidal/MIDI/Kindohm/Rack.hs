@@ -33,8 +33,8 @@ rackController = ControllerShape { controls = [
 
                             --minilogue
                             mCC noise_p 1,
-                            mCC pitch1_p 2,
-                            mCC pitch2_p 3,
+                            mCC mlpitch1_p 2,
+                            mCC mlpitch2_p 3,
                             mCC shape1_p 4,
                             mCC shape2_p 5,
                             mCC vol1_p 7,
