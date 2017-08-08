@@ -38,6 +38,8 @@ import Sound.Tidal.Params
 (lforate, lforate_p) = pF "lforate" (Just 0)
 (lfomod, lfomod_p) = pF "lfomod" (Just 0)
 (lfowave, lfowave_p) = pF "lfowave" (Just 0.5)
+(mlpitch1, mlpitch1_p) = pF "pitch1" (Just 0.5)
+(mlpitch2, mlpitch2_p) = pF "pitch2" (Just 0.5)
 
 -- for rytm
 (tun, tun_p) = pF "tun" (Just 0.5)

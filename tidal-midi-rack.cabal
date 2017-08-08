@@ -16,6 +16,6 @@ cabal-version:       >=1.4
 Description: Custom Tidal MIDI synths for Mike
 
 library
-  Exposed-modules: Sound.Tidal.MIDI.Kindohm.CustomParams, Sound.Tidal.MIDI.Kindohm.Rytm, Sound.Tidal.MIDI.Kindohm.Minilogue, Sound.Tidal.MIDI.Kindohm.Erebus, Sound.Tidal.MIDI.Kindohm.Rack
+  Exposed-modules: Sound.Tidal.MIDI.Kindohm.CustomParams, Sound.Tidal.MIDI.Kindohm.Rytm, Sound.Tidal.MIDI.Kindohm.Minilogue, Sound.Tidal.MIDI.Kindohm.Erebus, Sound.Tidal.MIDI.Kindohm.Rack, Sound.Tidal.MIDI.Kindohm.RytmFL
 
   Build-depends: base < 5, tidal-midi == 0.9.*, tidal, PortMidi, process, hashable, containers, hosc, time, bytestring
